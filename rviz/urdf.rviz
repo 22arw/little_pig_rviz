@@ -32,7 +32,7 @@ Panels:
 Visualization Manager:
   Class: ""
   Displays:
-    - Alpha: 0.5
+    - Alpha: 0.9
       Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
@@ -61,11 +61,6 @@ Visualization Manager:
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
         base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_leg:
           Alpha: 1
           Show Axes: false
           Show Trail: false
