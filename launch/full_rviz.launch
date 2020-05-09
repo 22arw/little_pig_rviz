@@ -1,0 +1,3 @@
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find little_pig_rviz)/rviz/full.rviz" required="true"/>
+<launch>
