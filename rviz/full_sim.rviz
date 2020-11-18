@@ -57,7 +57,7 @@ Visualization Manager:
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
-      Enabled: false
+      Enabled: true
       Links:
         All Links Enabled: true
         Expand Joint Details: false
@@ -68,10 +68,10 @@ Visualization Manager:
       Robot Description: /little_pig_base/robot_description
       TF Prefix: ""
       Update Interval: 0
-      Value: false
+      Value: true
       Visual Enabled: true
     - Class: rviz/TF
-      Enabled: false
+      Enabled: true
       Frame Timeout: 15
       Frames:
         All Enabled: true
@@ -83,7 +83,7 @@ Visualization Manager:
       Tree:
         {}
       Update Interval: 0
-      Value: false
+      Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
@@ -239,7 +239,7 @@ Visualization Manager:
           Scale: 1
           Value: true
         Value: false
-      Enabled: false
+      Enabled: true
       Keep: 10
       Name: Odometry
       Position Tolerance: 0.10000000149011612
@@ -255,7 +255,7 @@ Visualization Manager:
         Value: Arrow
       Topic: /little_pig_base/simulation/odom_navsat/filtered
       Unreliable: false
-      Value: false
+      Value: true
     - Angle Tolerance: 0.10000000149011612
       Class: rviz/Odometry
       Covariance:
@@ -300,6 +300,18 @@ Visualization Manager:
       Topic: /little_pig_base/simulation/gps_navsat/filtered
       Value: true
       Zoom: 16
+    - Class: rviz/Image
+      Enabled: true
+      Image Topic: /little_pig_base/simulation/camera1/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
